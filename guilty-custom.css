@@ -1,0 +1,138 @@
+.controller.custom {
+   background: url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 1000' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='125,200 425,150 725,200 775,500 725,800 425,850 125,800 75,500' style='fill:black;fill-opacity:.25;stroke:Black;stroke-width:60;fill-rule:nonzero;'/%3E%3Cpolygon points='125,200 425,150 725,200 775,500 725,800 425,850 125,800 75,500' style='fill:black;fill-opacity:.25;stroke:lightgrey;stroke-width:45;fill-rule:nonzero;'/%3E%3Ccircle cx='1085' cy='595' r='125'/%3E%3Ccircle cx='1085' cy='325' r='125'/%3E%3Ccircle cx='1355' cy='245' r='125'/%3E%3Ccircle cx='1353' cy='515' r='125'/%3E%3Ccircle cx='1625' cy='245' r='125'/%3E%3C/svg%3E%0A") no-repeat;
+    background-position: left;
+    height: 1000px;
+    width: 2000px;
+}
+.custom .bumpers {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 1655px;
+    top: 200px;
+}
+
+.custom .bumper {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    opacity: 0.6;
+}
+.custom .bumper.right {
+    position: absolute;
+    left: -155px;
+    top: -80px;
+    background: url(https://e-mts.github.io/gpv/templates/stick-assets/H.png) no-repeat;
+    background-position:center;
+}
+
+.custom .button {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.custom .abxy {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 200px;
+    left: 960px;
+}
+.custom .a {
+    position: absolute;
+    bottom: 80px;
+    left: 0px;
+    background: url(https://e-mts.github.io/gpv/templates/stick-assets/P.png) no-repeat;
+    background-position:center;
+}
+
+.custom .b {
+    position: absolute;
+    bottom: 160px;
+    left: 272px;
+    background: url(https://e-mts.github.io/gpv/templates/stick-assets/D.png) no-repeat;
+    background-position:center;
+}
+
+.custom .x {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(https://e-mts.github.io/gpv/templates/stick-assets/K.png) no-repeat;
+    background-position:center;
+}
+
+.custom .y {
+    position: absolute;
+    top: -80px;
+    right: 79px;
+    background: url(https://e-mts.github.io/gpv/templates/stick-assets/S.png) no-repeat;
+    background-position:center;
+}
+.custom .button.pressed {
+	opacity:1;
+}
+.custom .bumper.pressed {
+	opacity:1;
+}
+.custom .fstick{
+    position: relative;
+    top: 0px;
+    left: -75px;
+    width: 1000px;
+    height: 1000px;
+    background: url(https://e-mts.github.io/gpv/templates/stick-assets/ball.png) no-repeat;
+    background-position: center;
+    transition: background-position 24ms;
+    transition-timing-function: steps(3)
+}
+.custom .fstick.up {
+    opacity: 10%;
+    background-position: center top;
+    opacity: 100%;
+}
+
+.custom .fstick.down {
+    opacity: 10%;
+    background-position: center bottom;
+    opacity: 100%;
+}
+
+.custom .fstick.left {
+    opacity: 10%;
+    background-position: center left;
+    opacity: 100%;
+}
+
+.custom .fstick.right {
+    opacity: 10%;
+    background-position: center right;
+    opacity: 100%;
+}
+
+.custom .fstick.up.right {
+    opacity: 10%;
+    background-position: 650px 50px;
+    opacity: 100%;
+}
+
+.custom .fstick.up.left {
+    opacity: 10%;
+    background-position: 50px 50px;
+    opacity: 100%;
+}
+
+.custom .fstick.down.right {
+    opacity: 10%;
+    background-position: 650px 650px;
+    opacity: 100%;
+}
+
+.custom .fstick.down.left {
+    opacity: 10%;
+    background-position: 50px 650px;
+    opacity: 100%;
+}
